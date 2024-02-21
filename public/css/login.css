@@ -1,0 +1,80 @@
+.login_body{
+    background-color: rgb(230, 235, 235);
+}
+.login_form{
+    background-color: rgb(167, 219, 219);
+    border-radius: 10px;
+}
+
+.signup_body{
+    background-color: rgb(212, 241, 229);
+}
+.signup_form{
+    background-color: rgb(142, 238, 178);
+    border-radius: 10px;
+}
+.login_anchor{
+    display: block;
+    margin-left: calc((100% - 40px) / 2);
+}
+.signup_anchor{
+    display: block;
+    margin-left: calc((100% - 50px) / 2);
+}
+/* .dashboard_body{
+    padding: 0px,50px;
+} */
+.nav-bar{
+    height:60px;
+    margin-top: 10px;
+    background-color: rgb(212, 118, 75);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar span{
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.addnewtaskbtn{
+    float: right;
+}
+.task_list{
+    margin-top: 180px;
+    background-color: rgb(167, 219, 219);
+
+}
+.task_list_outer{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+}
+.dashboard_form{
+    background-color: rgb(167, 219, 219);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+.edit_task{
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    cursor: pointer;
+    display: none;
+}
+/* .task_lists{
+    margin-top: 180px;
+    background-color: rgb(167, 219, 219);
+} */
